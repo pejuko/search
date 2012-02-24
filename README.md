@@ -4,6 +4,7 @@
 
 * boyer moore
 * brute force
+* fuzzy
 * karp rabin
 
 ## Dependencies
