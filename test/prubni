@@ -1,0 +1,8 @@
+#!/bin/sh
+
+i=0
+while [ $i -lt 30 ]; do
+	/opt/bin/srch_test -p helvetica -f $1 -m $2 >/dev/null;
+	echo $i;
+	i=$((i+1));
+done
